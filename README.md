@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-git clone https://github.com/corvofeng/joe-completion.git $ZSH/custom/plugins/
+git clone https://github.com/corvofeng/joe-completion.git $ZSH/custom/plugins/joe-completion
 ```
 
 You can think of it as a plugin for oh-my-zsh, or just a zshfile and source it
