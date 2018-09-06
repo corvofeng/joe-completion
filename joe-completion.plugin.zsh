@@ -28,8 +28,16 @@ _joe_command_arguments() {
 
     case $words[1] in
     (g|generate)
-            _values -s , 'All support langanes'\
-                $(joe-gitignore ls | tail -1 | tr  -d ',')
+        if [ $(command -v joe) ]
+        then
+            comp=($(joe ls | tail -1 | tr  -d ','))
+        elif [ $(command -v joe-gitignore) ]
+        then
+            comp=($(joe-gitignore ls | tail -1 | tr  -d ','))
+        else
+            echo "Don't have joe"
+        fi
+            _values -s , 'All support langanes' $comp
             ;;
     esac
 }
@@ -67,3 +75,4 @@ function _joe_gitignore {
 }
 
 compdef _joe_gitignore joe-gitignore
+compdef _joe_gitignore joe
