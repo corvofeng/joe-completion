@@ -1,5 +1,7 @@
 # joe-completion(For oh-my-zsh)
 
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
+
  A small zsh completion plugin for https://github.com/karan/joe
 
 ## Usage
@@ -34,3 +36,11 @@ fi
 
 [joe]: https://github.com/karan/joe
 [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
+
+
+## LICENSE
+
+Copyright © 2018 corvo.
+
+This project is licensed under version 3 of the GNU General Public License.
+
