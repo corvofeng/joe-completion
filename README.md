@@ -4,6 +4,10 @@
 
  A small zsh completion plugin for https://github.com/karan/joe
 
+
+
+![ezgif com-optimize](https://user-images.githubusercontent.com/12025071/45219945-256aaf80-b2df-11e8-8806-bcd8af779e2d.gif)
+
 ## Usage
 
 ```bash
